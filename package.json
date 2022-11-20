@@ -1,7 +1,10 @@
 {
-  "name": "@editorjs/attaches",
+  "name": "@editorjs/liyungc-attaches",
   "version": "1.2.3",
-  "repository": "https://github.com/editor-js/attaches",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIYUNG/attaches.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
@@ -15,10 +18,7 @@
     "editor.js",
     "editorjs"
   ],
-  "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
-  },
+  "author": "CodeX <team@codex.so>",
   "main": "./dist/bundle.js",
   "devDependencies": {
     "@babel/core": "^7.14.2",
@@ -40,5 +40,11 @@
     "to-string-loader": "^1.2.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
-  }
+  },
+  "description": "Tool for the [Editor.js](https://editorjs.io).",
+  "bugs": {
+    "url": "https://github.com/LIYUNG/attaches/issues"
+  },
+  "homepage": "https://github.com/LIYUNG/attaches#readme",
+  "dependencies": {}
 }
