@@ -442,7 +442,7 @@ export default class AttachesTool {
         innerHTML: DownloadIcon,
         href: file.url,
         target: '_blank',
-        rel: 'nofollow noindex noreferrer',
+        rel: 'nofollow noindex',
       });
 
       this.nodes.wrapper.appendChild(downloadIcon);
